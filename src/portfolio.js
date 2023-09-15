@@ -7,27 +7,27 @@ const settings = {
 
 //SEO Related settings
 const seo = {
-  title: "Ashutosh's Portfolio",
+  title: "Software of South",
   description:
-    "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
+    "Experienced Software Developer | Backend & SRE Specialist | Versatile Fullstack Skills | Optimize Your Digital Infrastructure",
   og: {
-    title: "Ashutosh Hathidara Portfolio",
+    title: "Software of South",
     type: "website",
-    url: "http://ashutoshhathidara.com/",
+    url: "http://south.software",
   },
 };
 
 //Home Page
 const greeting = {
-  title: "Ashutosh Hathidara",
-  logo_name: "AshutoshHathidara",
-  nickname: "layman_brother",
+  title: "Software of South",
+  logo_name: "softwareofsouth",
+  nickname: "by dani54196",
   subTitle:
     "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
   resumeLink:
-    "https://drive.google.com/file/d/1FL_wydnPF2SWCdw2goYAgZ1KKBx8TpcD/view?usp=sharing",
-  portfolio_repository: "https://github.com/ashutosh1919/masterPortfolio",
-  githubProfile: "https://github.com/ashutosh1919",
+    "https://drive.google.com/file/d/1vzX2LZBnPKi1yUWe5kZ6PGxkMqPL-Amm/view?usp=drive_link",
+  portfolio_repository: "https://github.com/dani54196/softwareofsouth",
+  githubProfile: "https://github.com/dani54196",
 };
 
 const socialMediaLinks = [
@@ -42,52 +42,52 @@ const socialMediaLinks = [
 
   {
     name: "Github",
-    link: "https://github.com/ashutosh1919",
+    link: "https://github.com/dani54196",
     fontAwesomeIcon: "fa-github", // Reference https://fontawesome.com/icons/github?style=brands
     backgroundColor: "#181717", // Reference https://simpleicons.org/?q=github
   },
   {
     name: "LinkedIn",
-    link: "https://www.linkedin.com/in/ashutosh1919/",
+    link: "https://www.linkedin.com/in/dani54196/",
     fontAwesomeIcon: "fa-linkedin-in", // Reference https://fontawesome.com/icons/linkedin-in?style=brands
     backgroundColor: "#0077B5", // Reference https://simpleicons.org/?q=linkedin
   },
-  {
-    name: "YouTube",
-    link: "https://youtube.com/c/DevSense19",
-    fontAwesomeIcon: "fa-youtube", // Reference https://fontawesome.com/icons/youtube?style=brands
-    backgroundColor: "#FF0000", // Reference https://simpleicons.org/?q=youtube
-  },
+  // {
+  //   name: "YouTube",
+  //   link: "https://youtube.com/c/DevSense19",
+  //   fontAwesomeIcon: "fa-youtube", // Reference https://fontawesome.com/icons/youtube?style=brands
+  //   backgroundColor: "#FF0000", // Reference https://simpleicons.org/?q=youtube
+  // },
   {
     name: "Gmail",
-    link: "mailto:ashutoshhathidara98@gmail.com",
+    link: "mailto:dani54196@gmail.com",
     fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
     backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
   },
   {
     name: "Twitter",
-    link: "https://twitter.com/ashutosh_1919",
+    link: "https://twitter.com/softwareofsouth",
     fontAwesomeIcon: "fa-twitter", // Reference https://fontawesome.com/icons/twitter?style=brands
     backgroundColor: "#1DA1F2", // Reference https://simpleicons.org/?q=twitter
   },
-  {
-    name: "Facebook",
-    link: "https://www.facebook.com/laymanbrother.19/",
-    fontAwesomeIcon: "fa-facebook-f", // Reference https://fontawesome.com/icons/facebook-f?style=brands
-    backgroundColor: "#1877F2", // Reference https://simpleicons.org/?q=facebook
-  },
-  {
-    name: "Instagram",
-    link: "https://www.instagram.com/layman_brother/",
-    fontAwesomeIcon: "fa-instagram", // Reference https://fontawesome.com/icons/instagram?style=brands
-    backgroundColor: "#E4405F", // Reference https://simpleicons.org/?q=instagram
-  },
+  // {
+  //   name: "Facebook",
+  //   link: "https://www.facebook.com/softwareofsouth/",
+  //   fontAwesomeIcon: "fa-facebook-f", // Reference https://fontawesome.com/icons/facebook-f?style=brands
+  //   backgroundColor: "#1877F2", // Reference https://simpleicons.org/?q=facebook
+  // },
+  // {
+  //   name: "Instagram",
+  //   link: "https://www.instagram.com/softwareofsouth/",
+  //   fontAwesomeIcon: "fa-instagram", // Reference https://fontawesome.com/icons/instagram?style=brands
+  //   backgroundColor: "#E4405F", // Reference https://simpleicons.org/?q=instagram
+  // },
 ];
 
 const skills = {
   data: [
     {
-      title: "Data Science & AI",
+      title: "Backend Development",
       fileName: "DataScienceImg",
       skills: [
         "⚡ Developing highly scalable production ready models for various deeplearning and statistical use cases",
@@ -96,38 +96,38 @@ const skills = {
       ],
       softwareSkills: [
         {
-          skillName: "Tensorflow",
-          fontAwesomeClassname: "logos-tensorflow",
+          skillName: "NodeJS",
+          fontAwesomeClassname: "logos-nodejs",
           style: {
             backgroundColor: "transparent",
           },
         },
         {
-          skillName: "Keras",
-          fontAwesomeClassname: "simple-icons:keras",
-          style: {
-            backgroundColor: "white",
-            color: "#D00000",
-          },
-        },
-        {
-          skillName: "PyTorch",
-          fontAwesomeClassname: "logos-pytorch",
+          skillName: "Go",
+          fontAwesomeClassname: "simple-icons:go",
           style: {
             backgroundColor: "transparent",
+            color: "#00aed8",
           },
         },
         {
           skillName: "Python",
-          fontAwesomeClassname: "ion-logo-python",
+          fontAwesomeClassname: "logos-python",
           style: {
             backgroundColor: "transparent",
             color: "#3776AB",
           },
         },
         {
-          skillName: "Deeplearning",
-          imageSrc: "deeplearning_ai_logo.png",
+          skillName: "TypeScript",
+          fontAwesomeClassname: "logos-typescript-icon",
+        },
+        {
+          skillName: "Json Web Token",
+          fontAwesomeClassname: "logos-jwt",
+          style: {
+            backgroundColor: "transparent",
+          },
         },
       ],
     },
@@ -180,7 +180,7 @@ const skills = {
           skillName: "NodeJS",
           fontAwesomeClassname: "simple-icons:node-dot-js",
           style: {
-            color: "#339933",
+            color: "#232323",
           },
         },
         {
@@ -238,8 +238,8 @@ const skills = {
           },
         },
         {
-          skillName: "Azure",
-          fontAwesomeClassname: "simple-icons:microsoftazure",
+          skillName: "Digital Ocean",
+          fontAwesomeClassname: "simple-icons:digitalocean",
           style: {
             color: "#0089D6",
           },
@@ -252,11 +252,8 @@ const skills = {
           },
         },
         {
-          skillName: "PostgreSQL",
-          fontAwesomeClassname: "simple-icons:postgresql",
-          style: {
-            color: "#336791",
-          },
+          skillName: "MySQL",
+          fontAwesomeClassname: "simple-icons:mysql",
         },
         {
           skillName: "MongoDB",
@@ -281,45 +278,45 @@ const skills = {
         },
       ],
     },
-    {
-      title: "UI/UX Design",
-      fileName: "DesignImg",
-      skills: [
-        "⚡ Designing highly attractive user interface for mobile and web applications",
-        "⚡ Customizing logo designs and building logos from scratch",
-        "⚡ Creating the flow of application functionalities to optimize user experience",
-      ],
-      softwareSkills: [
-        {
-          skillName: "Adobe XD",
-          fontAwesomeClassname: "simple-icons:adobexd",
-          style: {
-            color: "#FF2BC2",
-          },
-        },
-        {
-          skillName: "Figma",
-          fontAwesomeClassname: "simple-icons:figma",
-          style: {
-            color: "#F24E1E",
-          },
-        },
-        {
-          skillName: "Adobe Illustrator",
-          fontAwesomeClassname: "simple-icons:adobeillustrator",
-          style: {
-            color: "#FF7C00",
-          },
-        },
-        {
-          skillName: "Inkscape",
-          fontAwesomeClassname: "simple-icons:inkscape",
-          style: {
-            color: "#000000",
-          },
-        },
-      ],
-    },
+    // {
+    //   title: "UI/UX Design",
+    //   fileName: "DesignImg",
+    //   skills: [
+    //     "⚡ Designing highly attractive user interface for mobile and web applications",
+    //     "⚡ Customizing logo designs and building logos from scratch",
+    //     "⚡ Creating the flow of application functionalities to optimize user experience",
+    //   ],
+    //   softwareSkills: [
+    //     {
+    //       skillName: "Adobe XD",
+    //       fontAwesomeClassname: "simple-icons:adobexd",
+    //       style: {
+    //         color: "#FF2BC2",
+    //       },
+    //     },
+    //     {
+    //       skillName: "Figma",
+    //       fontAwesomeClassname: "simple-icons:figma",
+    //       style: {
+    //         color: "#F24E1E",
+    //       },
+    //     },
+    //     {
+    //       skillName: "Adobe Illustrator",
+    //       fontAwesomeClassname: "simple-icons:adobeillustrator",
+    //       style: {
+    //         color: "#FF7C00",
+    //       },
+    //     },
+    //     {
+    //       skillName: "Inkscape",
+    //       fontAwesomeClassname: "simple-icons:inkscape",
+    //       style: {
+    //         color: "#000000",
+    //       },
+    //     },
+    //   ],
+    // },
   ],
 };
 
