@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import "./Header.css";
 import { Fade } from "react-reveal";
 import { NavLink, Link } from "react-router-dom";
-import { greeting, settings } from "../../portfolio.js";
+import { settings } from "../../portfolio.js"; // greeting
 import SeoHeader from "../seoHeader/SeoHeader";
 
 const onMouseEnter = (event, color) => {
@@ -25,11 +25,12 @@ class Header extends Component {
         <div>
           <header className="header">
             <NavLink to={link} tag={Link} className="logo">
-              <span style={{ color: theme.text }}> &lt;</span>
+              <img src ={require("../../assests/image/logo-sos.png")} alt="logo" className="logo-img" style={{width: "100px", height: "100px"}}/>
+              {/* <span style={{ color: theme.text }}> &lt;</span>
               <span className="logo-name" style={{ color: theme.text }}>
                 {greeting.logo_name}
               </span>
-              <span style={{ color: theme.text }}>/&gt;</span>
+              <span style={{ color: theme.text }}>/&gt;</span> */}
             </NavLink>
             <input className="menu-btn" type="checkbox" id="menu-btn" />
             <label className="menu-icon" htmlFor="menu-btn">

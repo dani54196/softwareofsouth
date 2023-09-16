@@ -20,7 +20,7 @@ const seo = {
 //Home Page
 const greeting = {
   title: "Software of South",
-  logo_name: "softwareofsouth",
+  logo_name: "Software of South",
   nickname: "by dani54196",
   subTitle:
     "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
