@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fba4a59648fc6bf5fadcc47bbcb6cee4",
+    "revision": "8065af9153adf4852d51b0ac22fc9351",
     "url": "./index.html"
   },
   {
-    "revision": "ac708e6ac952d28a2147",
-    "url": "./static/css/main.5091578a.chunk.css"
+    "revision": "142cadc6593a9c4a0b22",
+    "url": "./static/css/main.d5048205.chunk.css"
   },
   {
-    "revision": "72a8864df165dac8fadf",
-    "url": "./static/js/2.a02f100c.chunk.js"
+    "revision": "2153715a1d2a0a383d26",
+    "url": "./static/js/2.329fb4af.chunk.js"
   },
   {
-    "revision": "ac708e6ac952d28a2147",
-    "url": "./static/js/main.12e0c23e.chunk.js"
+    "revision": "142cadc6593a9c4a0b22",
+    "url": "./static/js/main.7e7a9a93.chunk.js"
   },
   {
     "revision": "6212b97461da465d9a5a",
@@ -210,6 +210,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "c597fbded5de799dfb9abc3fc4f1c26f",
     "url": "./static/media/legato_logo.c597fbde.png"
+  },
+  {
+    "revision": "58663fae5ffad9a677a6da817b5497d1",
+    "url": "./static/media/logo-sos.58663fae.png"
   },
   {
     "revision": "83ac24fb968a474c6a63f7a4e9a8f62c",
