@@ -1,4 +1,8 @@
 {
-  "app.greeting": "¡Hola, Mundo!",
-  "app.language": "Idioma: Español"
+  "header.index": "Inicio",
+  "header.education": "Educación",
+  "header.experience": "Experiencia",
+  "header.projects": "Proyectos",
+  "header.openSource": "Open Source",
+  "header.contactme": "Contáctame"
 }
