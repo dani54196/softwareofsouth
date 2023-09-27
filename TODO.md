@@ -3,7 +3,7 @@
 - [ ] portfolio
 - [ ] edit index.html
   - [x] title
-  - [ ] icons
+  - [x] icons
   - [ ] meta
 - [ ] languajes
   - [ ] visible boton
