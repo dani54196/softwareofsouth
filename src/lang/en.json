@@ -4,5 +4,7 @@
   "header.experience": "Experience",
   "header.projects": "Projects",
   "header.openSource": "Open Source",
-  "header.contactme": "Contact me"
+  "header.contactme": "Contact me",
+
+  "home.description": "Daniel programer"
 }
