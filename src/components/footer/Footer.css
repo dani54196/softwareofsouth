@@ -8,3 +8,11 @@
 .footer-div {
   margin-top: 2rem;
 }
+
+.data-fiscal {
+  text-align: center;
+}
+
+.data-fiscal a img{
+  height: 200px;
+}
