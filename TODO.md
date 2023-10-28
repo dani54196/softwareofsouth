@@ -11,8 +11,8 @@
   - [ ] text
   - [ ] section pages
 - [ ] navbar
-- [ ] footer
- sections pages
-  - [ ] Home(service)  compromiso  Customer  Contact 
+- [ ] footer  
+      sections pages
+  - [ ] Home(service) compromiso Customer Contact
 - [ ] devekir
 - [ ]
