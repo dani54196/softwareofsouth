@@ -389,7 +389,7 @@ const degrees = {
         "⚡ I was selected for Merit cum Means Scholarship which is given to top 10% of students in college. I have received award from respected director for consistently best performance in academics.",
       ],
       website_link: "http://iiitk.ac.in",
-    }
+    },
   ],
 };
 
@@ -529,17 +529,17 @@ const experience = {
             "I am working on automating healthcare products. The projects involve automation for process improvements and for significantly enhancing the profits. I am currently working on Cancer Survival and Reoccurence Prediction. Our goal is to make AI system which scales and removes doctor dependency as much as possible.",
           color: "#0879bf",
         },
-        {
-          title: "Android and ML Developer",
-          company: "Muffito Incorporation",
-          company_url: "https://www.linkedin.com/company/muffito-inc/about/",
-          logo_path: "muffito_logo.png",
-          duration: "May 2018 - Oct 2018",
-          location: "Pune, Maharashtra",
-          description:
-            "I have created complete Android Application for locating Pub, Bar and beverage shops around you. I have also worked on implementation of algorithms for Face Detection, Text extraction from Image. I was involved in a team for creating complete software architecure of mobile and web application as well as admin panel for company.",
-          color: "#9b1578",
-        },
+        // {
+        //   title: "Android and ML Developer",
+        //   company: "Muffito Incorporation",
+        //   company_url: "https://www.linkedin.com/company/muffito-inc/about/",
+        //   logo_path: "muffito_logo.png",
+        //   duration: "May 2018 - Oct 2018",
+        //   location: "Pune, Maharashtra",
+        //   description:
+        //     "I have created complete Android Application for locating Pub, Bar and beverage shops around you. I have also worked on implementation of algorithms for Face Detection, Text extraction from Image. I was involved in a team for creating complete software architecure of mobile and web application as well as admin panel for company.",
+        //   color: "#9b1578",
+        // },
         {
           title: "Android Developer",
           company: "FreeCopy Pvt. Ltd.",
