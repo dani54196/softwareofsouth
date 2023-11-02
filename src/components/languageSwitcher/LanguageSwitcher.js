@@ -1,13 +1,12 @@
-import React from 'react';
-import { FormattedMessage } from 'react-intl';
+import React from "react";
 
 const LanguageSwitcher = ({ onChangeLanguage }) => {
   return (
     <div>
-      <button onClick={() => onChangeLanguage('en')}>
+      <button onClick={() => onChangeLanguage("en")}>
         <FormattedMessage id="english" />
       </button>
-      <button onClick={() => onChangeLanguage('es')}>
+      <button onClick={() => onChangeLanguage("es")}>
         <FormattedMessage id="spanish" />
       </button>
     </div>

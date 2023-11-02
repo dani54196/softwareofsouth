@@ -1,4 +1,4 @@
 # Software of South
 
 Structure page
-Home(service)  compromiso  Customer  Contact 
+Home(service) compromiso Customer Contact

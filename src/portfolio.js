@@ -732,13 +732,12 @@ const contactPageData = {
     avatar_image_path: "blogs_image.svg",
   },
   addressSection: {
-    title: "Address",
-    subtitle:
-      "Ambavadi vas, Kanodar, T.A.-Palanpur, Dist.-Banaskantha, Gujarat - 385520",
-    locality: "Kanodar",
-    country: "IN",
+    title: "Location",
+    subtitle: "Buenos Aires, Argentina",
+    locality: "Buenos Aires",
+    country: "AR",
     region: "Gujarat",
-    postalCode: "385520",
+    postalCode: "1778",
     streetAddress: "Ambavadi vas",
     avatar_image_path: "address_image.svg",
     location_map_link: "https://goo.gl/maps/MpMqtRZytFchMkZ76",
