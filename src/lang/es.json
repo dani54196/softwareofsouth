@@ -1,8 +1,9 @@
 {
-  "header.index": "Inicio",
+  "header": "espa",
+  "header.contactme": "Contáctame",
   "header.education": "Educación",
   "header.experience": "Experiencia",
-  "header.projects": "Proyectos",
+  "header.index": "Inicio",
   "header.openSource": "Open Source",
-  "header.contactme": "Contáctame"
+  "header.projects": "Proyectos"
 }

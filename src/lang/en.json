@@ -1,10 +1,10 @@
 {
-  "header.index": "Home",
+  "header": "ingl",
+  "header.contactme": "Contact me",
   "header.education": "Education",
   "header.experience": "Experience",
-  "header.projects": "Projects",
+  "header.index": "Home",
   "header.openSource": "Open Source",
-  "header.contactme": "Contact me",
-
+  "header.projects": "Projects",
   "home.description": "Daniel programer"
 }
