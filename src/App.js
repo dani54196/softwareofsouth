@@ -5,37 +5,48 @@ import { ThemeProvider } from "styled-components";
 import { chosenTheme } from "./theme";
 import { GlobalStyles } from "./global";
 
-import { initReactI18next } from "react-i18next";
-import i18n from "i18next";
-import LanguageSwitcher from "./components/languageSwitcher/LanguageSwitcher.js";
-import enTranslation from "./lang/en.json";
-import esTranslation from "./lang/es.json";
+import { useTranslation, Trans } from "react-i18next";
 
-i18n.use(initReactI18next).init({
-  resources: {
-    en: {
-      translation: enTranslation,
-    },
-    es: {
-      translation: esTranslation,
-    },
-  },
-  lng: "en",
-  fallbackLng: "en",
-  interpolation: {
-    escapeValue: false,
-  },
-});
+const lngs = {
+  en: { nativeName: "Eng" },
+  es: { nativeName: "Esp" },
+};
 
 function App() {
+  const { t, i18n } = useTranslation();
+
   return (
     <ThemeProvider theme={chosenTheme}>
       <>
+        <div>
+          {Object.keys(lngs).map((lng) => (
+            <button
+              key={lng}
+              style={{
+                fontWeight: i18n.resolvedLanguage === lng ? "bold" : "normal",
+              }}
+              type="submit"
+              onClick={() => i18n.changeLanguage(lng)}
+            >
+              {lngs[lng].nativeName}
+            </button>
+          ))}
+        </div>
+        <p>
+          <Trans i18nKey="description.part1">
+            Edit <code>src/App.js</code> and save to reload.
+          </Trans>
+        </p>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          {t("description.part2")}
+        </a>
         <GlobalStyles />
         <div>
-          <LanguageSwitcher />
-          <h1>{i18n.t("header.index")}</h1>
-          <h1>{i18n.t("header.education")}</h1>
           <Main theme={chosenTheme} />
         </div>
       </>
