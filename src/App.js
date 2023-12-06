@@ -8,8 +8,8 @@ import { GlobalStyles } from "./global";
 import { useTranslation, Trans } from "react-i18next";
 
 const lngs = {
-  en: { nativeName: "Eng" },
-  es: { nativeName: "Esp" },
+  en: { nativeName: "English" },
+  de: { nativeName: "Deutsch" },
 };
 
 function App() {
