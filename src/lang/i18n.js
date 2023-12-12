@@ -39,7 +39,7 @@ i18n
             education: "Educación",
             experience: "Experiencia",
             projects: "Proyectos",
-            openSource: "Open Source",
+            openSource: "Codigo Abierto",
             contactMe: "Contacto",
           },
           footer: {

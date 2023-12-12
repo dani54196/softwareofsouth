@@ -1,5 +1,5 @@
 import React from "react"; // { useState }
-
+import Button from "../../components/button/Button";
 import { useTranslation } from "react-i18next";
 
 const lngs = {

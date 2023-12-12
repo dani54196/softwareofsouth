@@ -60,7 +60,7 @@ const Header = ({ theme }) => {
                 onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
                 onMouseOut={(event) => onMouseOut(event)}
               >
-                Education
+                {t("navbar.education")}
               </NavLink>
             </li>
             <li>
@@ -72,7 +72,7 @@ const Header = ({ theme }) => {
                 onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
                 onMouseOut={(event) => onMouseOut(event)}
               >
-                Experience
+                {t("navbar.experience")}
               </NavLink>
             </li>
             <li>
@@ -84,7 +84,7 @@ const Header = ({ theme }) => {
                 onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
                 onMouseOut={(event) => onMouseOut(event)}
               >
-                Projects
+                {t("navbar.projects")}
               </NavLink>
             </li>
             <li>
@@ -96,7 +96,7 @@ const Header = ({ theme }) => {
                 onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
                 onMouseOut={(event) => onMouseOut(event)}
               >
-                Open Source
+                {t("navbar.openSource")}
               </NavLink>
             </li>
             <li>
@@ -108,7 +108,7 @@ const Header = ({ theme }) => {
                 onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
                 onMouseOut={(event) => onMouseOut(event)}
               >
-                Contact Me
+                {t("navbar.contactMe")}
               </NavLink>
               <LanguageSwitcher />
             </li>
