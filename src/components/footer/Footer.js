@@ -4,7 +4,10 @@ import { Fade } from "react-reveal";
 import { greeting } from "../../portfolio.js";
 /* eslint-disable jsx-a11y/accessible-emoji */
 
+import { useTranslation } from "react-i18next";
+
 export default function Footer(props) {
+  const { t } = useTranslation();
   return (
     <div className="footer-div">
       <div className="data-fiscal">
@@ -20,6 +23,7 @@ export default function Footer(props) {
       </div>
       <Fade>
         <p className="footer-text" style={{ color: props.theme.secondaryText }}>
+          <p>{t("footer.madeBy")}</p>
           Made with <span role="img">❤️</span> by {greeting.title}
         </p>
         {/* <ToggleSwitch theme={props.theme} onToggle={props.onToggle}/> */}

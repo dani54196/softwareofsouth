@@ -19,17 +19,31 @@ i18n
     resources: {
       en: {
         translation: {
-          description: {
-            part1: "Edit <1>src/App.js</1> and save to reload.",
-            part2: "Learn React",
+          navbar: {
+            home: "Home",
+            education: "Education",
+            experience: "Experience",
+            projects: "Projects",
+            openSource: "Open Source",
+            contactMe: "Contact Me",
+          },
+          footer: {
+            madeBy: "Made by",
           },
         },
       },
       es: {
         translation: {
-          description: {
-            part1: "Edita <1>src/App.js</1> y guarda para recargar.",
-            part2: "Aprende React",
+          navbar: {
+            home: "Inicio",
+            education: "Educación",
+            experience: "Experiencia",
+            projects: "Proyectos",
+            openSource: "Open Source",
+            contactMe: "Contacto",
+          },
+          footer: {
+            madeBy: "Hecho por",
           },
         },
       },

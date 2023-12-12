@@ -5,6 +5,8 @@ import { NavLink, Link } from "react-router-dom";
 import { settings } from "../../portfolio.js"; // greeting
 import SeoHeader from "../seoHeader/SeoHeader";
 
+import LanguageSwitcher from "../languageSwitcher/LanguageSwitcher.js";
+
 const onMouseEnter = (event, color) => {
   const el = event.target;
   el.style.backgroundColor = color;
@@ -25,7 +27,12 @@ class Header extends Component {
         <div>
           <header className="header">
             <NavLink to={link} tag={Link} className="logo">
-              <img src ={require("../../assests/image/logo-sos.png")} alt="logo" className="logo-img" style={{width: "100px", height: "100px"}}/>
+              <img
+                src={require("../../assests/image/logo-sos.png")}
+                alt="logo"
+                className="logo-img"
+                style={{ width: "100px", height: "100px" }}
+              />
               {/* <span style={{ color: theme.text }}> &lt;</span>
               <span className="logo-name" style={{ color: theme.text }}>
                 {greeting.logo_name}
@@ -108,6 +115,9 @@ class Header extends Component {
                 >
                   Contact Me
                 </NavLink>
+              </li>
+              <li>
+                <LanguageSwitcher />
               </li>
             </ul>
           </header>
