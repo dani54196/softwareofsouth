@@ -25,11 +25,11 @@ i18n
           },
         },
       },
-      de: {
+      es: {
         translation: {
           description: {
-            part1: "Ändere <1>src/App.js</1> und speichere um neu zu laden.",
-            part2: "Lerne React",
+            part1: "Edita <1>src/App.js</1> y guarda para recargar.",
+            part2: "Aprende React",
           },
         },
       },
