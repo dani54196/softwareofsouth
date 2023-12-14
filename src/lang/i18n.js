@@ -27,6 +27,10 @@ i18n
             openSource: "Open Source",
             contactMe: "Contact Me",
           },
+          greeting: {
+            subTitle:
+              "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
+          },
           footer: {
             madeBy: "Made by",
           },
@@ -41,6 +45,10 @@ i18n
             projects: "Proyectos",
             openSource: "Codigo Abierto",
             contactMe: "Contacto",
+          },
+          greeting: {
+            subTitle:
+              "Un apasionado que siempre se esfuerza por trabajar en productos de extremo a extremo que desarrollan sistemas sociales y técnicos sostenibles y escalables para crear impacto.",
           },
           footer: {
             madeBy: "Hecho por",
