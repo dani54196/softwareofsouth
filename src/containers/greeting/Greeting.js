@@ -35,7 +35,7 @@ export default function Greeting(props) {
               <SocialMedia theme={theme} />
               <div className="portfolio-repo-btn-div">
                 <Button
-                  text={t("⭐ Star Me On Github")}
+                  text={t("greeting.start")}
                   newTab={true}
                   href="https://github.com/dani54196/softwareofsouth"
                   theme={theme}

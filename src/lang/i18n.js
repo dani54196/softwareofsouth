@@ -30,6 +30,7 @@ i18n
           greeting: {
             subTitle:
               "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
+            start: "Follow me on Github ⭐",
           },
           footer: {
             madeBy: "Made by",
@@ -49,6 +50,7 @@ i18n
           greeting: {
             subTitle:
               "Un apasionado que siempre se esfuerza por trabajar en productos de extremo a extremo que desarrollan sistemas sociales y técnicos sostenibles y escalables para crear impacto.",
+            start: "Sigueme en Github ⭐",
           },
           footer: {
             madeBy: "Hecho por",
