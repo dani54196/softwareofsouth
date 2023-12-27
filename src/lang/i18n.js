@@ -32,6 +32,9 @@ i18n
               "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
             start: "Follow me on Github ⭐",
           },
+          whatIDo: {
+            title: "What We Do?",
+          },
           footer: {
             madeBy: "Made by",
           },
@@ -51,6 +54,9 @@ i18n
             subTitle:
               "Un apasionado que siempre se esfuerza por trabajar en productos de extremo a extremo que desarrollan sistemas sociales y técnicos sostenibles y escalables para crear impacto.",
             start: "Sigueme en Github ⭐",
+          },
+          whatIDo: {
+            title: "Que Hacemos?",
           },
           footer: {
             madeBy: "Hecho por",
