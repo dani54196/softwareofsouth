@@ -1,8 +1,16 @@
 # Software of South
 
-Structure page
-Home(service) compromiso Customer Contact
+Software
 
-services
+### Structure page
 
-pages names
+/Home (compromiso ,que ofrecemos) /Clientes /Contact /cambio LNG
+
+### TODO fix
+
+- [ ] services
+  - [ ] icons -[ ] quitar maps
+- [ ] lang
+  - [x] changue lang
+  - [x] button
+  - [ ] button style -[ ] deploy on south.software

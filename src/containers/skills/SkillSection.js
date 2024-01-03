@@ -18,7 +18,7 @@ function GetSkillSvg(props) {
     return <CloudInfraImg theme={props.theme} />;
   return <DesignImg theme={props.theme} />;
 }
-
+// change maps
 const SkillSection = ({ theme }) => {
   // Use useTranslation hook to get translation function (t)
   const { t } = useTranslation();
