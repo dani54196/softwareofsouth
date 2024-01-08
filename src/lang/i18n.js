@@ -38,6 +38,7 @@ i18n
           footer: {
             madeBy: "Made by",
           },
+          experience: {},
         },
       },
       es: {
@@ -61,6 +62,7 @@ i18n
           footer: {
             madeBy: "Hecho por",
           },
+          experience: {},
         },
       },
     },
